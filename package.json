@@ -1,0 +1,19 @@
+{
+  "name": "insomnia-plugin-otherrequest",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "taschenuhr",
+  "license": "ISC",
+  "insomnia": {
+    "name": "request-attribute",
+    "description": "..."
+  },
+  "dependencies": [],
+  "devDependencies": [],
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "plugins"
+  ]
+}
