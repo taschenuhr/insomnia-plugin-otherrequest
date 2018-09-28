@@ -5,6 +5,10 @@ Reference other requests attributes in [Insomnia](https://insomnia.rest/).
 
 Build/tested for insomnia 6.0.x
 
+## Installation
+
+Install the `insomnia-plugin-otherrequest` plugin from Preferences > Plugins.
+
 ## Types
 ### Request -> Formfield
 Choose one of the active form fields of the selected request.
