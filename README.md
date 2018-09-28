@@ -1,5 +1,7 @@
 # Insomnia plugin - OtherRequest
-Reference other requests attributes in the insomnia rest client.
+[![Npm Version](https://img.shields.io/npm/v/insomnia-plugin-otherrequest.svg)](https://www.npmjs.com/package/insomnia-plugin-otherrequest)
+
+Reference other requests attributes in [Insomnia](https://insomnia.rest/).
 
 Build/tested for insomnia 6.0.x
 
