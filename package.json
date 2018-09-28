@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "author": "taschenuhr",
+  "repository": "github:taschenuhr/insomnia-plugin-otherrequest",
   "license": "ISC",
   "insomnia": {
-    "name": "request-attribute",
-    "description": "..."
+    "name": "otherrequest",
+    "description": "Reference other requests attributes"
   },
   "dependencies": [],
   "devDependencies": [],
   "keywords": [
     "insomnia",
     "plugin",
-    "plugins"
+    "plugins",
+    "request",
+    "attributes"
   ]
 }

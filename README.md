@@ -1,5 +1,7 @@
-# Insomnia plugin - otherrequest
-Reference other requests attributes in insomnia rest client
+# Insomnia plugin - OtherRequest
+Reference other requests attributes in the insomnia rest client.
+
+Build/tested for insomnia 6.0.x
 
 ## Types
 ### Request -> Formfield

@@ -35,7 +35,7 @@ module.exports.templateTags = [
       filter = filter || '';
 
       if (!['formfield', 'query'].includes(field)) {
-        throw new Error(`Invalid response field ${field}`);
+        throw new Error(`Invalid response field '${field}'`);
       }
 
       if (!id) {
@@ -44,7 +44,7 @@ module.exports.templateTags = [
 
       const request = await context.util.models.request.getById(id);
       if (!request) {
-        throw new Error(`Could not find request ${id}`);
+        throw new Error(`Could not find request '${id}'`);
       }
 
       const response = await context.util.models.response.getLatestForRequestId(id);
