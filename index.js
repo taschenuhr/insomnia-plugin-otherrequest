@@ -5,7 +5,7 @@ module.exports.templateTags = [
     description: "reference values from other request's attributes",
     args: [
       {
-        displayName: 'Formfield',
+        displayName: 'Type',
         type: 'enum',
         options: [
           {
@@ -75,9 +75,9 @@ module.exports.templateTags = [
       }
 
       const choices = attributes.filter(attr => !attr.disabled)
-        .map(attr => attr.name)
-        .filter((value, index, self) => self.indexOf(value) === index)
-        .join(',\n\t');
+          .map(attr => attr.name)
+          .filter((value, index, self) => self.indexOf(value) === index)
+          .join(',\n\t');
 
       if (!filter) {
         throw new Error("No attribute name given. Choices:\n\t" + choices);
