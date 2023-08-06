@@ -10,8 +10,11 @@
     "name": "otherrequest",
     "description": "Reference other requests attributes"
   },
-  "dependencies": [],
-  "devDependencies": [],
+  "dependencies": {
+    "jsonpath-plus": "^6.0.1",
+    "xmldom": "^0.6.0",
+    "xpath": "0.0.32"
+  },
   "keywords": [
     "insomnia",
     "plugin",
